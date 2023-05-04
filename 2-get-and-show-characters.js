@@ -17,7 +17,7 @@ async function getCharacters() {
 //Når du opdaterer denne function, kan du så copy-paste den ind i filter.js?
 function showCharacter(character) {
   const html = /* html */ `
-        <article class="characters__item-item">
+        <article class="characters__item">
             <h3>Name: ${character.characterName}<h3>
             <h3>Class: ${character.class}<h3>
             <h3>Role: ${character.role}<h3>

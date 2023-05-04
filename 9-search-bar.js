@@ -3,7 +3,7 @@
 const searchInput = document.getElementById("searchInput");
 
 //store name elements in array
-const namesFromDOM = document.getElementsByClassName("characters__item-item");
+const namesFromDOM = document.getElementsByClassName("characters__item");
 
 //listen
 searchInput.addEventListener("keyup", (event) => {
