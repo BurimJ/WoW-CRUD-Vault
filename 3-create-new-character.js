@@ -10,11 +10,14 @@ function showAddCharacterDialog() {
 
 function addCharacterClicked(event) {
   event.preventDefault();
+  console.log("add character clicked");
 
   const form = document.querySelector("#form-add-character");
-  if (event.submitter.innerHTML === "Add Character") {
-    addCharacter();
+  if (event.submitter.innerHTML === "Close") {
+    document.querySelector("#dialog-add-character").close();
+    return;
   }
+  addCharacter();
   form.reset();
   document.querySelector("#dialog-add-character").close();
   modalOpen = false;

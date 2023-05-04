@@ -29,8 +29,8 @@ function showCharacter(character) {
             <h3>Country: ${character.country}<h3>
             ${isActive(character)}
             <h3>Battletag: ${character.battletag}<h3>
-            <button class="button-30">Update character</button>
-            <button class="button-30">Delete character</button>
+            <button id="btn-update-character" class="button-30">Update character</button>
+            <button id="btn-delete-character" class="button-30">Delete character</button>
         </article>
     `;
 
@@ -79,10 +79,10 @@ function showCharacter(character) {
 
   //event listeners to btns
   document
-    .querySelector("#characters article:last-child .button-30")
+    .querySelector("#characters article:last-child #btn-update-character")
     .addEventListener("click", () => updateClicked(character));
   document
-    .querySelector("#characters article:last-child .button-30")
+    .querySelector("#characters article:last-child #btn-delete-character")
     .addEventListener("click", () => deleteClicked(character));
 
   // function updateClicked() {
