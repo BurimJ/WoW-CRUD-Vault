@@ -1,7 +1,5 @@
 "use strict";
 
-console.log("hej1");
-
 let wowClasses;
 
 // fetch our class-data
@@ -14,7 +12,7 @@ async function getClasses() {
 }
 
 function showClass(wowClass) {
-  const html = /* html */ `
+  const html = `
         <article class="classes-item">
             <h3>${wowClass.class}<h3>
         </article>

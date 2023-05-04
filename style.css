@@ -146,6 +146,8 @@ label {
   flex-wrap: wrap;
   justify-content: center;
   border-radius: 10px;
+  margin: 10px;
+  padding: 30px 20px;
 }
 
 .characters__item-item {

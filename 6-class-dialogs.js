@@ -62,7 +62,7 @@ function showDeathKnight(wowClass) {
         </article>
         <p><span>The Death Knight Class is available with the following classes: </br> ${wowClass.availableRaces}</span></p>
         <form method="dialog">
-            <button id="class-close" class="button-30" >Close</button>
+            <button id="class-close" class="btn__style" >Close</button>
         </form>
     </dialog>
     `;
@@ -93,7 +93,7 @@ function showDemonHunter(wowClass) {
         </article>
         <p><span>The Demon Hunter Class is available with the following classes: </br> ${wowClass.availableRaces}</span></p>
         <form method="dialog">
-            <button id="class-close" class="button-30" >Close</button>
+            <button id="class-close" class="btn__style" >Close</button>
         </form>
     </dialog>
     `;
@@ -138,7 +138,7 @@ function showDruid(wowClass) {
         </article>
         <p><span>The Druid Class is available with the following classes: </br> ${wowClass.availableRaces}</span></p>
         <form method="dialog">
-                        <button id="class-close" class="button-30" >Close</button>
+                        <button id="class-close" class="btn__style" >Close</button>
 
         </form>
     </dialog>
@@ -170,7 +170,7 @@ function showEvoker(wowClass) {
         </article>
         <p><span>The Evoker Class is available with the following classes: </br> ${wowClass.availableRaces}</span></p>
         <form method="dialog">
-            <button id="class-close" class="button-30" >Close</button>
+            <button id="class-close" class="btn__style" >Close</button>
         </form>
     </dialog>
     `;
@@ -208,7 +208,7 @@ function showHunter(wowClass) {
         </article>
         <p><span>The Hunter Class is available with the following classes: </br> ${wowClass.availableRaces}</span></p>
         <form method="dialog">
-            <button id="class-close" class="button-30" >Close</button>
+            <button id="class-close" class="btn__style" >Close</button>
         </form>
     </dialog>
     `;
@@ -246,7 +246,7 @@ function showMage(wowClass) {
         </article>
         <p><span>The Mage Class is available with the following classes: </br> ${wowClass.availableRaces}</span></p>
         <form method="dialog">
-            <button id="class-close" class="button-30" >Close</button>
+            <button id="class-close" class="btn__style" >Close</button>
         </form>
     </dialog>
     `;
@@ -284,7 +284,7 @@ function showMonk(wowClass) {
         </article>
         <p><span>The Monk Class is available with the following classes: </br> ${wowClass.availableRaces}</span></p>
         <form method="dialog">
-            <button id="class-close" class="button-30" >Close</button>
+            <button id="class-close" class="btn__style" >Close</button>
         </form>
     </dialog>
     `;
@@ -322,7 +322,7 @@ function showPaladin(wowClass) {
         </article>
         <p><span>The Paladin Class is available with the following classes: </br> ${wowClass.availableRaces}</span></p>
         <form method="dialog">
-            <button id="class-close" class="button-30" >Close</button>
+            <button id="class-close" class="btn__style" >Close</button>
         </form>
     </dialog>
     `;
@@ -360,7 +360,7 @@ function showPriest(wowClass) {
         </article>
         <p><span>The Priest Class is available with the following classes: </br> ${wowClass.availableRaces}</span></p>
         <form method="dialog">
-            <button id="class-close" class="button-30" >Close</button>
+            <button id="class-close" class="btn__style" >Close</button>
         </form>
     </dialog>
     `;
@@ -398,7 +398,7 @@ function showRogue(wowClass) {
         </article>
         <p><span>The Rogue Class is available with the following classes: </br> ${wowClass.availableRaces}</span></p>
         <form method="dialog">
-            <button id="class-close" class="button-30" >Close</button>
+            <button id="class-close" class="btn__style" >Close</button>
         </form>
     </dialog>
     `;
@@ -436,7 +436,7 @@ function showShaman(wowClass) {
         </article>
         <p><span>The Shaman Class is available with the following classes: </br> ${wowClass.availableRaces}</span></p>
         <form method="dialog">
-            <button id="class-close" class="button-30" >Close</button>
+            <button id="class-close" class="btn__style" >Close</button>
         </form>
     </dialog>
     `;
@@ -474,7 +474,7 @@ function showWarlock(wowClass) {
         </article>
         <p><span>The Warlock Class is available with the following classes: </br> ${wowClass.availableRaces}</span></p>
         <form method="dialog">
-            <button id="class-close" class="button-30" >Close</button>
+            <button id="class-close" class="btn__style" >Close</button>
         </form>
     </dialog>
     `;
@@ -512,7 +512,7 @@ function showWarrior(wowClass) {
         </article>
         <p><span>The Warrior Class is available with the following classes: </br> ${wowClass.availableRaces}</span></p>
         <form method="dialog">
-            <button id="class-close" class="button-30" >Close</button>
+            <button id="class-close" class="btn__style" >Close</button>
         </form>
     </dialog>
     `;

@@ -29,8 +29,8 @@ function showCharacter(character) {
             <h3>Country: ${character.country}<h3>
             ${isActive(character)}
             <h3>Battletag: ${character.battletag}<h3>
-            <button id="btn-update-character" class="button-30">Update character</button>
-            <button id="btn-delete-character" class="button-30">Delete character</button>
+            <button id="btn-update-character" class="btn__style">Update character</button>
+            <button id="btn-delete-character" class="btn__style">Delete character</button>
         </article>
     `;
 

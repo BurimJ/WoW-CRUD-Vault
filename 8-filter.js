@@ -18,8 +18,8 @@ async function getCharacters() {
 //    const html = /* html */ `
 //         <article class="characters__item-item">
 //             <h3>${character.id}<h3>
-//             <button class="button-30">Update character</button>
-//             <button class="button-30">Delete character</button>
+//             <button class="btn__style">Update character</button>
+//             <button class="btn__style">Delete character</button>
 //         </article>
 //     `;
 
